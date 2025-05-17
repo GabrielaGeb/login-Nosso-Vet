@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Jaldi", sans-serif;
+  background-color: #0188c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 414px;
+  background-color: #0188c8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-section {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-section {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-titulo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0f3b5e;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.form-esqueci-senha {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  font-size: 12px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #0f3b5e;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #0f3b5e;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register1 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #0f3b5e;
+}
+
+.register2 {
+  font-weight: bold;
+  text-decoration: none;
+}
